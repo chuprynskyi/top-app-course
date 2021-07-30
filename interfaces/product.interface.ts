@@ -17,20 +17,19 @@ export interface ProductModel {
 	categories: string[];
 	tags: string[];
 	title: string;
-	description: string;
 	link: string;
-	image: string;
-	characteristics: ProductCharacteristic[];
-	initialRating: number;
-	credit: number;
 	price: number;
+	credit: number;
 	oldPrice: number;
-	advantages: string;
+	description: string;
+	characteristics: ProductCharacteristic[];
 	createdAt: Date;
 	updatedAt: Date;
 	__v: number;
-	html: string;
-	reviews: ReviewModel	;
+	image: string;
+	initialRating: number;
+	reviews: ReviewModel[];
 	reviewCount: number;
 	reviewAvg?: number;
+	advantages: string;
 }

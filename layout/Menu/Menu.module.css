@@ -3,6 +3,7 @@
 	grid-template-columns: 24px 1fr;
 	gap: 20px;
 	align-items: center;
+	font-weight: 500;
 	font-size: 18px;
 	line-height: 25px;
 	margin-top: 20px;
@@ -12,7 +13,6 @@
 .firstLevel:hover {
 	color: var(--primary);
 }
-
 
 .firstLevelActive svg,
 .firstLevel:hover svg {
@@ -32,7 +32,7 @@
 	line-height: 16px;
 }
 
-.secondBlock{
+.secondBlock {
 	margin-top: 15px;
 	margin-left: 12px;
 	padding-left: 32px;
@@ -44,11 +44,11 @@
 	display: none;
 }
 
-.secondLevelBlockOpend {
+.secondLevelBlockOpened {
 	display: block;
 }
 
-.secondLevelBlockOpend:last-child {
+.secondLevelBlockOpened:last-child {
 	margin-bottom: 20px;
 }
 
@@ -63,6 +63,7 @@
 	font-size: 14px;
 	line-height: 19px;
 }
+
 
 .thirdLevelActive,
 .thirdLevel:hover {
